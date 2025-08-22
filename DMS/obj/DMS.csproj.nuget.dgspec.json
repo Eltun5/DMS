@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/eltun/RiderProjects/DMS/DMS/DMS.csproj": {}
+    "/home/eltun/Desktop/DMS/DMS/DMS.csproj": {}
   },
   "projects": {
-    "/home/eltun/RiderProjects/DMS/DMS/DMS.csproj": {
+    "/home/eltun/Desktop/DMS/DMS/DMS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/eltun/RiderProjects/DMS/DMS/DMS.csproj",
+        "projectUniqueName": "/home/eltun/Desktop/DMS/DMS/DMS.csproj",
         "projectName": "DMS",
-        "projectPath": "/home/eltun/RiderProjects/DMS/DMS/DMS.csproj",
+        "projectPath": "/home/eltun/Desktop/DMS/DMS/DMS.csproj",
         "packagesPath": "/home/eltun/.nuget/packages/",
-        "outputPath": "/home/eltun/RiderProjects/DMS/DMS/obj/",
+        "outputPath": "/home/eltun/Desktop/DMS/DMS/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/eltun/.nuget/NuGet/NuGet.Config"

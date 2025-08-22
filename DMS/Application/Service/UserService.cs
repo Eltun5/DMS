@@ -206,13 +206,13 @@ public class UserService(IMapper mapper,
     private void VerifyCanCreateUserWithThisField(RegisterRequest request)
     {
         if (userRepository.ExistsByEmail(request.Email))
-            throw new ArgumentException(config["log:user:service:create:email"]!);
+            throw new ArgumentException(config["log:user:service:create:exist:email"]!);
 
         if (userRepository.ExistsByFullName(request.FullName))
-            throw new ArgumentException(config["log:user:service:create:full-name"]!);
+            throw new ArgumentException(config["log:user:service:create:exist:full-name"]!);
 
         if (userRepository.ExistsByPhoneNumber(request.PhoneNumber))
-            throw new ArgumentException(config["log:user:service:create:phone-number"]!);
+            throw new ArgumentException(config["log:user:service:create:exist:phone-number"]!);
     }
 
     private User InitializeUser(RegisterRequest request)

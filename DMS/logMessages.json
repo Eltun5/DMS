@@ -5,9 +5,9 @@
         "create" : {
           "try": "Someone try to create a user.",
           "exist": {
-            "email": "User with this email already exists. Email : ",
-            "full-name": "User with this full name already exists. Full name : ",
-            "phone-number": "User with this phone number already exists. Phone number : "
+            "email": "User with this email already exists.",
+            "full-name": "User with this full name already exists.",
+            "phone-number": "User with this phone number already exists."
           },
           "success": "User created successfully."
         },

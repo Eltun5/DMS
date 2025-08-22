@@ -5,15 +5,9 @@ using Swashbuckle.AspNetCore.Annotations;
 namespace WebApplication1.Application.DTOs.Requests;
 
 public record LoginRequest(
-    [property: Required]
-    [property: EmailAddress]
-    [property: DefaultValue("user@example.com")]
-    [property: SwaggerSchema(Description = "User's email address")]
-    string Email = "user@example.com",
+    [Required, EmailAddress]
+    string Email,
 
-    [property: Required]
-    [property: MinLength(6)]
-    [property: DefaultValue("Password123!")]
-    [property: SwaggerSchema(Description = "User's password")]
-    string Password = "Password123!"
+    [Required, MinLength(6)]
+    string Password
 );
